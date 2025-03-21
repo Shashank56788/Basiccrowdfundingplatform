@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Contract Crowdfunding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Smart Contract Crowdfunding</h1>
+        </header>
+
+        <section class="info">
+            <div class="details">
+                <h2>Campaign Details</h2>
+                <p><strong>Goal:</strong> <span id="goal"></span> ETH</p>
+                <p><strong>Deadline:</strong> <span id="deadline"></span></p>
+                <p><strong>Total Funds:</strong> <span id="totalFunds"></span> ETH</p>
+                <p><strong>Status:</strong> <span id="campaignStatus"></span></p>
+            </div>
+            <div class="contribution">
+                <h2>Your Contribution</h2>
+                <p><strong>Your Balance:</strong> <span id="yourContribution"></span> ETH</p>
+                <input type="number" id="contributionAmount" placeholder="Amount in ETH" />
+                <button id="contributeButton">Contribute</button>
+                <button id="refundButton">Request Refund</button>
+            </div>
+        </section>
+
+        <footer>
+            <p>Powered by Smart Contracts</p>
+        </footer>
+    </div>
+
+    <script src="web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
