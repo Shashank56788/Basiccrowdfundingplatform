@@ -23,4 +23,7 @@ The vision for this project is to provide a decentralized platform where anyone 
 ## Contract Address:
 0xeA2964eF79055Bb86100E2Dd65382369c348d6C6
 ![image](https://github.com/user-attachments/assets/7fa718c8-6652-43d4-865c-b8af38d27176)
+##Frontend
+![image](https://github.com/user-attachments/assets/d9c4f3bf-af0c-4c15-8579-c0353ebdc8ec)
+
 
